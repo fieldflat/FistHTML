@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>HTML練習用です</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- 画面をスタイリングする -->
   </head>
   <body>
-    <p>こんにちは。平田智紀です</p>
+<!--
+  id: 一つしかない要素
+  class: 複数ある要素
+  style: スタイルを直接指定
+-->
+    <p id="message">こんにちは。平田智紀です</p> <!-- idは一つしか持てない -->
+    <p class="message">こんにちは。平田智紀です</p> <!-- classは複数持てる -->
+    <p class="message active" style="background: skyblue;">こんにちは。平田智紀です</p> <!-- 複数のクラスを持てる -->
   </body>
 </html>
